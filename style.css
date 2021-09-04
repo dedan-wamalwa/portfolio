@@ -2,21 +2,36 @@
     box-sizing: border-box;
 }
 
-.col1{
+.col1{  /* styling the 1st column of the page */
     float: left;
-    width: 25%;
+    width: 28%;
     margin: 1px;
 
 }
-.col2{
+.col2{  /* styling the 2nd column of the page */
     float: left;
-    width: 5%;
+    width: 2%;
     margin: 1px;
 }
-.col3{
+.col3{   /* styling the 3rd column of the page */
     float: left;
     width: 65%;
     margin: 1px;
 
 }
+#name{   /* styling the name of the author(Dedan Wamalwa) */
+    font-size: 2.0rem;
 
+}
+.golden-color{    /* making the titles on the page golden in color */
+    color: #b8860b;
+}
+.project-title{     /* underlining the titles of the projects*/
+    text-decoration: underline;
+}
+.serif{
+   font-family: serif;
+}
+.cursive{
+    font-family: cursive;
+}
