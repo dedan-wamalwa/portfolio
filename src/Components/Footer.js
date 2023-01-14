@@ -3,17 +3,17 @@ import * as Icon from "react-bootstrap-icons";
 function Footer() {
 	return (
 		<footer>
-			<div className="row">
+			<div className="row text-dark">
 				<center>
 					<div className="col-12 col-md-8 col-lg-6   ">
 						<div className="row">
 							{/* Contact */}
 							<div className="col-4 ">
-								<h6>Contact</h6>
+								<h6 className="mb-0 text-start">Contact</h6>
 								<ul className="list-unstyled">
-									<li class="text-center">owdedan@gmail.com</li>
-									<li class="text-center">+254 796 760359</li>
-									<li class="text-center">+254 750 205745</li>
+									<li className="text-start"><Icon.EnvelopeAtFill /> owdedan@gmail.com</li>
+									<li className="text-start"><Icon.TelephoneOutboundFill /> +254 796 760359</li>
+									<li className="text-start"><Icon.TelephoneOutboundFill /> +254 750 205745</li>
 									<li>
 										<span></span> <span></span>
 									</li>
@@ -21,21 +21,21 @@ function Footer() {
 							</div>
 							{/* projects */}
 							<div className="col-4 ">
-								<h6>Projects</h6>
+								<h6 className="mb-0 text-start">Projects</h6>
 								<ul className="list-unstyled">
-									<li class="text-center">Chatbot</li>
-									<li class="text-center">Real Estate Price Prediction</li>
-									<li class="text-center">Customer Churn Prediction</li>
+									<li className="text-start">Chatbot</li>
+									<li className="text-start">Real Estate Price Prediction</li>
+									<li className="text-start">Customer Churn Prediction</li>
 								</ul>
 							</div>
 							{/* Intersets */}
 							<div className="col-4  ">
-								<h6 className="">Interests</h6>
+								<h6 className="mb-0 text-start">Interests</h6>
 								<ul className="list-unstyled">
-									<li class="text-center">Microservices</li>
-									<li class="text-center">System Scaling</li>
-									<li class="text-center">Cloud Computing</li>
-									<li class="text-center">Containers</li>
+									<li className="text-start">Microservices</li>
+									<li className="text-start">System Design and Scaling</li>
+									<li className="text-start">Cloud Computing</li>
+									<li className="text-start">Containers</li>
 								</ul>
 							</div>
 						</div>
