@@ -3,6 +3,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
+import "./App.css";
 function App() {
 	return (
 		<div className="container-fluid">

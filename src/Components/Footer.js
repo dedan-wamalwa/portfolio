@@ -6,14 +6,14 @@ function Footer() {
 			<div className="row text-dark">
 				<center>
 					<div className="col-12 col-md-8 col-lg-6   ">
-						<div className="row">
+						<div className="row fs-small text-body">
 							{/* Contact */}
 							<div className="col-4 ">
 								<h6 className="mb-0 text-start">Contact</h6>
-								<ul className="list-unstyled">
-									<li className="text-start"><Icon.EnvelopeAtFill /> owdedan@gmail.com</li>
-									<li className="text-start"><Icon.TelephoneOutboundFill /> +254 796 760359</li>
-									<li className="text-start"><Icon.TelephoneOutboundFill /> +254 750 205745</li>
+								<ul className="list-unstyled fs-6 fw-light ">
+									<li className="text-start text-break ft-items"><Icon.EnvelopeAtFill /> owdedan@gmail.com</li>
+									<li className="text-start ft-items"><Icon.TelephoneOutboundFill /> +254796760359</li>
+									<li className="text-start ft-items"><Icon.TelephoneOutboundFill /> +254750205745</li>
 									<li>
 										<span></span> <span></span>
 									</li>
@@ -21,21 +21,21 @@ function Footer() {
 							</div>
 							{/* projects */}
 							<div className="col-4 ">
-								<h6 className="mb-0 text-start">Projects</h6>
-								<ul className="list-unstyled">
-									<li className="text-start">Chatbot</li>
-									<li className="text-start">Real Estate Price Prediction</li>
-									<li className="text-start">Customer Churn Prediction</li>
+								<h6 className="mb-0 text-start text-black">Projects</h6>
+								<ul className="list-unstyled fs-6 fw-light ">
+									<li className="text-start ft-items">Chatbot</li>
+									<li className="text-start ft-items">Real Estate Price Prediction</li>
+									<li className="text-start ft-items">Customer Churn Prediction</li>
 								</ul>
 							</div>
 							{/* Intersets */}
-							<div className="col-4  ">
+							<div className="col-4">
 								<h6 className="mb-0 text-start">Interests</h6>
-								<ul className="list-unstyled">
-									<li className="text-start">Microservices</li>
-									<li className="text-start">System Design and Scaling</li>
-									<li className="text-start">Cloud Computing</li>
-									<li className="text-start">Containers</li>
+								<ul className="list-unstyled fs-6 fw-light ">
+									<li className="text-start ft-items">Microservices</li>
+									<li className="text-start ft-items">System Design and Scaling</li>
+									<li className="text-start ft-items">Cloud Computing</li>
+									<li className="text-start ft-items">Containers</li>
 								</ul>
 							</div>
 						</div>
