@@ -2,33 +2,33 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Header() {
 	return (
-		<nav className="navbar navbar-expand-md fixed-top">
-			<div className="container-fluid">
+		<nav className="navbar navbar-expand-md content border-bottom border-success">
+			<div className="container-fluid py-3">
+				<div className="navbar-brand fw-bold text-white">
+					Dedan Wamalwa
+				</div>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="navbar-brand fw-bold" href="#">
-					Dedan Wamalwa
-				</div>
 				<div className="collapse navbar-collapse " id="navbarNavAltMarkup">
-					<div className="navbar-nav  m-auto">
-						<Link>
-							<div className="nav-link active fw-bold " aria-current="page" href="#">
+					<div className="navbar-nav m-auto">
+						<Link to={"/"}>
+							<div className="nav-link active fw-bold text-white" aria-current="page">
 								Home
 							</div>
 						</Link>
-						<Link>
-							<div className="nav-link active fw-bold" href="#">
+						<Link to={"/Experience"}>
+							<div className="nav-link active fw-bold text-white" >
 								Experience
 							</div>
 						</Link>
-						<Link>
-							<div className="nav-link active fw-bold" href="#">
+						<Link to={"/Projects"}>
+							<div className="nav-link active fw-bold text-white" >
 								Projects
 							</div>
 						</Link>
-						<Link>
-							<div className="nav-link active fw-bold" href="#">
+						<Link to={"/Contact"}>
+							<div className="nav-link active fw-bold text-white" >
 								Contact
 							</div>
 						</Link>
