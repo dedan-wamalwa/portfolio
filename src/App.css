@@ -1,12 +1,6 @@
-@media (max-width: 767px){
-  .ft-items{
-    font-size: 12px !important;
-    color: black;
-    font-weight: 500;
-  }
- 
+.content{
+  background-color: #21325e;
 }
-.ft-items:hover {
-  background-color: black !important;
-  color:rgb(23, 23, 224) !important;
+a{
+  text-decoration: none;
 }
