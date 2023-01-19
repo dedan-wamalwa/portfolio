@@ -5,7 +5,7 @@ function Header() {
 		<div className="row">
 			<nav className="navbar navbar-expand-md content ">
 				<div className="container-fluid py-3">
-					<div className="navbar-brand fw-bold text-white">Dedan Wamalwa</div>
+					<div className="navbar-brand fw-bold text-white ps-md-2">Dedan Wamalwa</div>
 					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"></span>
 					</button>
