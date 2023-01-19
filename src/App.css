@@ -4,3 +4,9 @@
 a{
   text-decoration: none;
 }
+.navbar{
+  border-right: 3px solid black;
+}
+.nav-link:hover,.navbar-brand:hover{
+  color: yellow !important;
+}

@@ -9,7 +9,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 function App() {
 	return (
-		<div className="container-fluid px-0">
+		<div className="container-fluid px-1">
 			<Router>
 				<Header />
 				<Routes>
