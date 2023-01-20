@@ -4,7 +4,7 @@ function Footer() {
 	const date=new Date();
 	return (
 		<div className="row text-white content">
-			<div className="col-12 m-auto" id="contact">
+			<div className="col-12 m-auto" >
 				<p className="text-center">
 					<a href="https://github.com/dedan-wamalwa" target={"_blank"} className="mx-2">
 						<Icon.Github size={25} color={"black"}/>
@@ -20,7 +20,7 @@ function Footer() {
 					<li className="text-center text-break ">
 						<Icon.EnvelopeAtFill /> owdedan@gmail.com
 					</li>
-					<li className="text-center ">
+					<li className="text-center " id="contact">
 						<Icon.TelephoneOutboundFill /> +254 796 760359
 					</li>
 					<li className="text-center ">

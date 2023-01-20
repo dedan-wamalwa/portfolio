@@ -12,19 +12,22 @@ function Header() {
 					<div className="collapse navbar-collapse " id="navbarNavAltMarkup">
 						<div className="navbar-nav m-auto">
 							<Link to={"/"}>
-								<div className="nav-link active fw-bold text-white" aria-current="page">
+								<div className="nav-link active fw-bold text-white " data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
 									Home
 								</div>
 							</Link>
 							<Link to={"/Experience"}>
-								<div className="nav-link active fw-bold text-white">Experience</div>
+								<div className="nav-link active fw-bold text-white" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Experience</div>
 							</Link>
 							<Link to={"/Projects"}>
-								<div className="nav-link active fw-bold text-white">Projects</div>
+								<div className="nav-link active fw-bold text-white" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Projects</div>
 							</Link>
-							<Link to={"/Footer"}>
-								<div className="nav-link active fw-bold text-white">Contact</div>
-							</Link>
+							<a href="#skills">
+								<div className="nav-link active fw-bold text-white" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Skills</div>
+							</a>
+							<a href="#contact">
+								<div className="nav-link active fw-bold text-white" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Contact</div>
+							</a>
 						</div>
 					</div>
 				</div>
