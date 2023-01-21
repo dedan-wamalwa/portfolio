@@ -6,13 +6,13 @@ function Footer() {
 		<div className="row text-white content">
 			<div className="col-12 m-auto" >
 				<p className="text-center">
-					<a href="https://github.com/dedan-wamalwa" target={"_blank"} className="mx-2">
+					<a href="https://github.com/dedan-wamalwa" target={"_blank"} rel="noopener noreferrer" className="mx-2">
 						<Icon.Github size={25} color={"black"}/>
 					</a>
-					<a href="https://www.linkedin.com/in/dedan-wamalwa-95a6a11a9" target={"_blank"} className="mx-2">
+					<a href="https://www.linkedin.com/in/dedan-wamalwa-95a6a11a9" target={"_blank"} rel="noopener noreferrer" className="mx-2">
 						<Icon.Linkedin size={25} color={"white"} />
 					</a>
-					<a href="https://www.instagram.com/dedan_wamalwa/?next=%2F" target={"_blank"} className="mx-2">
+					<a href="https://www.instagram.com/dedan_wamalwa/?next=%2F" target={"_blank"} rel="noopener noreferrer" className="mx-2">
 						<Icon.Instagram size={25} color={"violet"}/>
 					</a>
 				</p>
