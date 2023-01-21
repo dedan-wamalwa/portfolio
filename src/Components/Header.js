@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Header() {
 	return (
 		<div className="row">
-			<nav className="navbar navbar-expand-md content ">
+			<nav className="navbar navbar-expand-md content navbar-dark">
 				<div className="container-fluid py-3">
 					<div className="navbar-brand fw-bold text-white ps-md-2">Dedan Wamalwa</div>
 					<button
