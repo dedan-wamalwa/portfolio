@@ -8,7 +8,7 @@ function Projects() {
 			<div className="col-10 col-md-6 m-auto mt-2 mb-3 text-center">
 				<div className="row ">
 					{projectList.map((project) =>{
-						return <Project name={project.name} image={project.image} link={project.link} alt={project.alt}/>;
+						return <Project name={project.name} image={project.image} link={project.link} alt={project.alt} stack={project.stack} progress={project.progress} target={project.target}/>;
 					})}
 				</div>
 			</div>
