@@ -34,8 +34,8 @@ function Experience() {
 						iconStyle={{ background: "gray", color: "brown" }}
 						icon={<Icon.BriefcaseFill />}
 					>
-						<h6 className="vertical-timeline-element-title text-black">Software Developer - Freelance</h6>
-						<p className="text-black">Nairobi,Kenya</p>
+						<h6 className="vertical-timeline-element-title text-black">Software Developer - Internship</h6>
+						<p className="text-black">FlashCredit Africa Limited - Nairobi,Kenya</p>
 					</VerticalTimelineElement>
 				</VerticalTimeline>
 			</div>
