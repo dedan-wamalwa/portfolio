@@ -8,14 +8,14 @@ function Experience() {
 			<div className="col-md-8 m-auto">
 				<VerticalTimeline className="mb-4">
 					<VerticalTimelineElement
-						className="vertical-timeline-element--education"
-						date=" August 2018 -December 2022"
+						className="vertical-timeline-element--work"
+						date="February 2023 - Present"
 						dateClassName="ms-3 text-black fw-bold fs-5"
-						iconStyle={{ background: "gray", color: "black" }}
-						icon={<Icon.MortarboardFill />}
+						iconStyle={{ background: "gray", color: "brown" }}
+						icon={<Icon.BriefcaseFill />}
 					>
-						<h6 className="vertical-timeline-element-title text-black">Bachelor of Science - Computer Science</h6>
-						<p className="text-black">Multimedia University of Kenya - Nairobi,Kenya</p>
+						<h6 className="vertical-timeline-element-title text-black">Software Developer - Internship</h6>
+						<p className="text-black">FlashCredit Africa Limited - Nairobi,Kenya</p>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
@@ -28,14 +28,14 @@ function Experience() {
 						<p className="text-black">iOSoft Solutions Limited - Nairobi,Kenya</p>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
-						className="vertical-timeline-element--work"
-						date="January 2023 - Present"
+						className="vertical-timeline-element--education"
+						date=" August 2018 - December 2022"
 						dateClassName="ms-3 text-black fw-bold fs-5"
-						iconStyle={{ background: "gray", color: "brown" }}
-						icon={<Icon.BriefcaseFill />}
+						iconStyle={{ background: "gray", color: "black" }}
+						icon={<Icon.MortarboardFill />}
 					>
-						<h6 className="vertical-timeline-element-title text-black">Software Developer - Internship</h6>
-						<p className="text-black">FlashCredit Africa Limited - Nairobi,Kenya</p>
+						<h6 className="vertical-timeline-element-title text-black">Bachelor of Science - Computer Science</h6>
+						<p className="text-black">Multimedia University of Kenya - Nairobi,Kenya</p>
 					</VerticalTimelineElement>
 				</VerticalTimeline>
 			</div>
