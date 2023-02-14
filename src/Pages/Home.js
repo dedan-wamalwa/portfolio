@@ -24,15 +24,15 @@ function Home() {
 				</p>
 				{/* skills */}
 				<h2 className="mt-5 fw-bold" id="skills">Skills</h2>
-				<div className="text-start ps-4 mt-2">
+				<div className="text-center ps-4 mt-2">
 					<h3>Programming Languages</h3>
-					<p className="">Python , JavaScript, PHP, Java.</p>
+					<p>Python , JavaScript, PHP, C#, Java.</p>
 					<h3>Front End Development</h3>
-					<p>ReactJS, jQuery, HTML, CSS, Bootstrap.</p>
+					<p>React, jQuery, HTML, CSS, Bootstrap, Tailwind, Svelte.</p>
 					<h3>Back End Development</h3>
-					<p>CodeIgniter, Django, Flask, MySQL.</p>
+					<p>CodeIgniter, Django, MySQL, .NET.</p>
 					<h3>Collaboration</h3>
-					<p>Git (GitHub, GitLab), Scrum & Kanban, Slack.</p>
+					<p>Git, Kanban, Slack, Azure DevOps.</p>
 				</div>
 			</div>
 		</div>
