@@ -27,13 +27,13 @@ function Footer() {
                     </a>
                 </p>
                 <ul className="list-unstyled fs-6 fw-light ">
-                    <li className="text-center text-break">
+                    <li className="text-center text-break pt-1">
                         <Icon.EnvelopeAtFill /> owdedan@gmail.com
                     </li>
-                    <li className="text-center " id="contact">
+                    <li className="text-center pt-1" id="contact">
                         <Icon.TelephoneOutboundFill /> +254 796 760359
                     </li>
-                    <li className="text-center ">
+                    <li className="text-center pt-1">
                         <Icon.TelephoneOutboundFill /> +254 750 205745
                     </li>
                 </ul>
