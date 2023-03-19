@@ -30,13 +30,10 @@
 	}
 }
 .content {
-	background-color: #21325e;
+	background-color: #082161;
 }
 a {
 	text-decoration: none;
-}
-.navbar {
-	border-right: 3px solid black;
 }
 .nav-link:hover,
 .navbar-brand:hover {
@@ -44,4 +41,12 @@ a {
 }
 .project-card {
 	background-color: #21325e;
+}
+.logo{
+	width: 100%;
+	height: 8vh;
+
+}
+.header-footer{
+	background-color: #122b69;
 }
