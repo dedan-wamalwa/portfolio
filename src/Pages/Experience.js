@@ -10,8 +10,8 @@ function Experience() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date="March 2023 - Present"
-                        dateClassName="ms-3 text-black fw-bold fs-5"
-                        iconStyle={{ background: "gray", color: "brown" }}
+                        dateClassName="ms-sm-3 text-black fw-bold fs-5"
+                        iconStyle={{ background: "gray", color: "black" }}
                         icon={<Icon.MortarboardFill />}
                     >
                         <h6 className="vertical-timeline-element-title text-black">DevOps Engineering</h6>
@@ -30,7 +30,7 @@ function Experience() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date=" September 2022 - January 2023"
-                        dateClassName="ms-3 text-black fw-bold fs-5"
+                        dateClassName="ms-sm-3 text-black fw-bold fs-5"
                         iconStyle={{ background: "gray", color: "brown" }}
                         icon={<Icon.BriefcaseFill />}
                     >
