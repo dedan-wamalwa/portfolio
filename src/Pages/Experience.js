@@ -9,18 +9,8 @@ function Experience() {
                 <VerticalTimeline className="mb-4">
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="March 2023 - Present"
-                        dateClassName="ms-sm-3 text-black fw-bold fs-5"
-                        iconStyle={{ background: "gray", color: "black" }}
-                        icon={<Icon.MortarboardFill />}
-                    >
-                        <h6 className="vertical-timeline-element-title text-black">DevOps Engineering</h6>
-                        <p className="text-black">Moringa School - Nairobi,Kenya</p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
                         date="February 2023 - Present"
-                        dateClassName="me-3 text-black fw-bold fs-5"
+                        dateClassName="ms-sm-3 text-black fw-bold fs-5"
                         iconStyle={{ background: "gray", color: "brown" }}
                         icon={<Icon.BriefcaseFill />}
                     >
@@ -30,12 +20,22 @@ function Experience() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date=" September 2022 - January 2023"
-                        dateClassName="ms-sm-3 text-black fw-bold fs-5"
+                        dateClassName="me-3 text-black fw-bold fs-5"
                         iconStyle={{ background: "gray", color: "brown" }}
                         icon={<Icon.BriefcaseFill />}
                     >
                         <h6 className="vertical-timeline-element-title text-black">Software Engineer - Internship</h6>
                         <p className="text-black">iOSoft Solutions Limited - Nairobi,Kenya</p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="March 2023 - Present"
+                        dateClassName="ms-sm-3 text-black fw-bold fs-5"
+                        iconStyle={{ background: "gray", color: "black" }}
+                        icon={<Icon.MortarboardFill />}
+                    >
+                        <h6 className="vertical-timeline-element-title text-black">DevOps Engineering</h6>
+                        <p className="text-black">Moringa School - Nairobi,Kenya</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"

@@ -40,11 +40,11 @@ function Home() {
                     <h3>Programming Languages</h3>
                     <p>Python , JavaScript, PHP, C#, Java.</p>
                     <h3>Front End Development</h3>
-                    <p>React, jQuery, HTML, CSS, Bootstrap, Tailwind, Svelte.</p>
+                    <p>HTML5, CSS, jQuery, Bootstrap, Tailwind, Svelte.</p>
                     <h3>Back End Development</h3>
                     <p>CodeIgniter, Django, MySQL, .NET.</p>
-                    <h3>Collaboration</h3>
-                    <p>Git, Kanban, Slack, Azure DevOps.</p>
+                    <h3>DevOps</h3>
+                    <p>Linux, Git, Jenkins, Docker</p>
                 </div>
             </div>
         </div>
