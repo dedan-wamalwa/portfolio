@@ -38,13 +38,13 @@ function Home() {
                 </h2>
                 <div className="text-center ps-4 mt-2">
                     <h3>Programming Languages</h3>
-                    <p>Python , JavaScript, PHP, C#, Java.</p>
+                    <p>Python , JavaScript, C#.</p>
                     <h3>Front End Development</h3>
                     <p>HTML5, CSS, jQuery, Bootstrap, Tailwind, Svelte.</p>
                     <h3>Back End Development</h3>
-                    <p>CodeIgniter, Django, MySQL, .NET.</p>
+                    <p>Django, ASP.NET, SQL, REST APIs.</p>
                     <h3>DevOps</h3>
-                    <p>Linux, Git, Jenkins, Docker</p>
+                    <p>Linux, Git, Jenkins, Docker.</p>
                 </div>
             </div>
         </div>
